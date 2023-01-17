@@ -1,16 +1,20 @@
 
 import Home from './pages/home'
-import { MainContainer, Page } from './App.css'
+import { MainContainer, Page, InnerContainer } from './App.css'
 import NavigationBar from './common/navigationBar/navigationBar'
+import Footer from './common/footer/footer'
 
 const App = () => {
 
   return (
     <MainContainer>
       <NavigationBar/>
-      <Page>
-        <Home/>
-      </Page>
+      <InnerContainer>
+        <Page>
+          <Home/>
+        </Page>
+        <Footer/>
+      </InnerContainer>
     </MainContainer>
   )
 }
