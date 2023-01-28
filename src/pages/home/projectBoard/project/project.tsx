@@ -1,6 +1,6 @@
 import React, {FC} from "react";
 import { Button } from "../../../../common/common.css";
-import { ProjectDiv } from "./project.css";
+import { ButtonDiv, ProjectDiv, ProjectImg, Tags } from "./project.css";
 
 interface ProjectProps {
     imgPath: string;
@@ -13,12 +13,12 @@ const Project : FC<ProjectProps> = (props) => {
 
     return(
         <ProjectDiv>
-            <img src={props.imgPath}/>
+            <ProjectImg src={props.imgPath}/>
             <div>
-                <h2>{props.projectName}</h2>
-                <h4>{props.secondaryHeader}</h4>
-                <span>{props.tags.reduce((val1,val2)=>val1 + ' | ' + val2)}</span>
-                <Button>VIEW CASE STUDY</Button>
+                <h3>{props.projectName}</h3>
+                <h5>{props.secondaryHeader}</h5>
+                <Tags>{props.tags.reduce((val1,val2)=>val1 + ' | ' + val2)}</Tags>
+                <ButtonDiv><Button>VIEW CASE STUDY</Button></ButtonDiv>
             </div>
         </ProjectDiv>
     );

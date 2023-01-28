@@ -12,8 +12,6 @@ export const InnerContainer = styled.div`
 `
 
 export const Page = styled.div`
-    height: 1000px;
     background-color: var(--bk-pink);
     width: 100%;
-    z-index: 10;
 `

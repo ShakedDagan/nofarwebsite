@@ -1,8 +1,8 @@
 :root {
   font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
+  font-size: 25px;
   line-height: 24px;
-  font-weight: 400;
+  font-weight: normal;
   --green-01: #8fe9bd;
   --pink-01: #ff4667;
   --bk-pink: #fff9f9;
@@ -37,4 +37,29 @@ body {
 
 div {
   box-sizing: border-box;
+}
+
+h2 {
+  font-family: 'Arvo', serif;
+  font-weight: normal;
+  font-size: 70px;
+  margin: 70px 0;
+  letter-spacing: normal;
+}
+
+h3 {
+  font-size: 50px;
+  font-weight: bold;
+  margin: 15px 0 30px 0;
+}
+
+h4 {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+h5 {
+  font-weight: 600;
+  font-size: 25px;
+  margin: 4px 0;
 }
