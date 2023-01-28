@@ -6,13 +6,12 @@ export const MainContainer = styled.div`
 `
 
 export const InnerContainer = styled.div`
-position: absolute;
-bottom: 0;
-    height:85.7vh;
+    position: relative;
+    transform: translateY(14.3vh);
     width:100%;
 `
 
 export const Page = styled.div`
-    height: auto;
+    background-color: var(--bk-pink);
     width: 100%;
 `

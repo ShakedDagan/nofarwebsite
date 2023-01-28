@@ -1,8 +1,8 @@
 :root {
   font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
+  font-size: 25px;
   line-height: 24px;
-  font-weight: 400;
+  font-weight: normal;
   --green-01: #8fe9bd;
   --pink-01: #ff4667;
   --bk-pink: #fff9f9;
@@ -16,8 +16,10 @@
   --purple-01: #7793f6;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: var(--dark-blue);
+  background-color: var(--bk-pink);
+
+  box-sizing: border-box;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -35,4 +37,29 @@ body {
 
 div {
   box-sizing: border-box;
+}
+
+h2 {
+  font-family: 'Arvo', serif;
+  font-weight: normal;
+  font-size: 70px;
+  margin: 70px 0;
+  letter-spacing: normal;
+}
+
+h3 {
+  font-size: 50px;
+  font-weight: bold;
+  margin: 15px 0 30px 0;
+}
+
+h4 {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+h5 {
+  font-weight: 600;
+  font-size: 25px;
+  margin: 4px 0;
 }

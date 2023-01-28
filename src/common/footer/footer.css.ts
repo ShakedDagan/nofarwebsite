@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
     width: 100%;
-    height: 21.4%;
+    height: 14.5vh;
     background-color: var(--bk-pink);
 `
 

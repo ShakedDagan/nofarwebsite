@@ -11,9 +11,9 @@ export const Navigation = styled.div`
     justify-content: center;
     align-items: center;
     gap: 10px;
-    margin: 0 0 150px;
-    padding: 49px 102px;
+    padding: 0 102px;
     background-color: var(--bk-pink);
+    z-index: 1;
 `
 
 export const Nav = styled.nav`
