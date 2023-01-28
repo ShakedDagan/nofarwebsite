@@ -16,8 +16,8 @@ const Footer = () => {
                 <Frame>
                     <InnerFrame>
                         <IconFrame>
-                            <ImageIcon><Mail/></ImageIcon>
-                            <ImageIcon><Linkedin/></ImageIcon>
+                            <ImageIcon><a href = "mailto: nofarbarazani.nb@gmail.com"><Mail/></a></ImageIcon>
+                            <ImageIcon><a href = "https://www.linkedin.com/in/nofar-barazani/"><Linkedin/></a></ImageIcon>
                         </IconFrame>
                         <StyledDiv onClick={topFunction}><BackToTopSpan>BACK TO TOP <UpCaret><TopIcon/></UpCaret></BackToTopSpan></StyledDiv>
                     </InnerFrame>
