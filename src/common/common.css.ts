@@ -8,8 +8,9 @@ export const Button = styled.button`
     letter-spacing: normal;
     text-align: center;
     color: var(--dark-blue);
-    width: 203px;
+    width: auto;
     height: 57px;
+    padding: 0 15px;
     display: flex;
     flex-direction: row;
     justify-content: center;
