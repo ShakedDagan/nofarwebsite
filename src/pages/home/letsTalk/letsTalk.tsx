@@ -13,7 +13,7 @@ const LetsTalk = () => {
                 <h1>Let's Talk</h1>
                 <MarginP>
                     I am looking for a team where I can <RedSpan>learn</RedSpan>, take <RedSpan>meaningful part</RedSpan>, 
-                    <RedSpan> work hard</RedSpan>, contribute to the team and become a <RedSpan>better designer</RedSpan>.
+                    <RedSpan> work hard</RedSpan>, <RedSpan>contribute</RedSpan> to the team and become a <RedSpan>better designer</RedSpan>.
                 </MarginP>
                 <Button onClick={handleClickMail}>nofarbarazani.nb@gmail.com</Button>
             </InnerContainer>
